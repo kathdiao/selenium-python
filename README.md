@@ -14,6 +14,9 @@ This project is for my **personal learning** only.
 3.  **Waits** 
     - Demonstrates the use of explicit waits to handle dynamic web elements efficiently.
     – Follows best practices by avoiding time.sleep() and waiting only until specific conditions are met.
+
+4. **Simple Login** 
+    - Performs a simple login with valid credentials, adds an item to the cart, and navigates to the cart page.
 ---
 
 ### Notes
