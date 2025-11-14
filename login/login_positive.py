@@ -11,6 +11,8 @@ driver.find_element(By.ID, "user-name").send_keys("standard_user")
 driver.find_element(By.ID, "password").send_keys("secret_sauce")
 driver.find_element(By.ID, "login-button").click()
 
+print("Happy path: Success!")
+
 try:
     wait = WebDriverWait(driver, 10)
     first_item = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "inventory_item_name")))
