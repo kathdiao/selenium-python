@@ -16,7 +16,9 @@ This project is for my **personal learning** only.
     – Follows best practices by avoiding time.sleep() and waiting only until specific conditions are met.
 
 4. **Simple Login** 
-    - Performs a simple login with valid credentials, adds an item to the cart, and navigates to the cart page.
+    - Performs a simple login with valid credentials, adds an item to the cart, and navigates to the cart page. 
+    - Add negative test cases
+    - Includes negative test cases for validation.
 ---
 
 ### Notes
