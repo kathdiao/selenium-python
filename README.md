@@ -1,26 +1,27 @@
 # Selenium Python Practice
 
-This project is for my **personal learning** only.  
+This project is for **personal learning and experimentation** with Selenium and automated testing using Python.
 
-## Scripts
+## Project Structure
 
-1. **Opening Website** 
-    – Simple web navigation: opens Google in Chrome and prints the page title.  
+selenium-python/
+│
+├── selenium-scripts/ # Mini-projects and practice scripts
+│
+├── pytest/ # Automated tests using pytest
+│
+└── README.md
 
-2. **Locating Elements** 
-    – Demonstrates how to locate elements on a webpage using Selenium. 
-    – Performs a search, sends keys, clicks a link, and prints the page title and text content.
+## Purpose
+- Learn and practice Selenium operations:  
+  - Locating elements (ID, Name, CSS Selector, XPath)  
+  - Sending keys, clicking, waits, and navigation  
+- Track progress over time  
+- Experiment with **pytest** for automated testing  
+- Keep organized versions of scripts and tests  
 
-3.  **Waits** 
-    - Demonstrates the use of explicit waits to handle dynamic web elements efficiently.
-    – Follows best practices by avoiding time.sleep() and waiting only until specific conditions are met.
-
-4. **Simple Login** 
-    - Performs a simple login with valid credentials, adds an item to the cart, and navigates to the cart page. 
-    - Add negative test cases
-    - Includes negative test cases for validation.
----
-
-### Notes
-- Practicing basic Selenium operations.
-- Keeping track of progress as I learn web automation.
+## Notes
+- This repo is purely for **personal learning**.  
+- Scripts in `selenium-scripts/` are individual mini-projects.  
+- Tests in `pytest/` are automated test examples using pytest framework.  
+- All experiments are Python-based.
