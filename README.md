@@ -2,16 +2,6 @@
 
 This project is for **personal learning and experimentation** with Selenium and automated testing using Python.
 
-## Project Structure
-
-selenium-python/
-│
-├── selenium-scripts/ # Mini-projects and practice scripts
-│
-├── pytest/ # Automated tests using pytest
-│
-└── README.md
-
 ## Purpose
 - Learn and practice Selenium operations:  
   - Locating elements (ID, Name, CSS Selector, XPath)  
